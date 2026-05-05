@@ -7,7 +7,7 @@ import { SlTarget } from "react-icons/sl";
 function OurServices() {
   return (
     <>
-      <section className="w-screen px-24 max-lg:px-12 max-md:px-4 py-20 flex flex-col gap-8 bg-secondary before:bg-radial before:from-30% before:from-primary/10 before:to-secondary before:to-100% relative before:absolute before before:w-[40rem] before:h-[40rem] max-sm:before:w-[25rem] max-sm:before:h-[25rem] before:rounded-full before:left-1/2 before:-translate-x-1/2 before:z-0">
+      <section className="w-screen px-24 max-lg:px-12 max-md:px-4 py-20 flex flex-col gap-8 bg-secondary before:bg-radial before:from-30% before:from-primary/10 before:to-secondary before:to-100% relative before:absolute before before:w-[40rem] before:h-[40rem] max-sm:before:w-[20rem] max-sm:before:h-[20rem] before:rounded-full before:left-1/2 before:-translate-x-1/2 before:z-0">
         <span className="tracking-widest text-primary text-sm font-medium font-heading flex items-center gap-4 uppercase">
           <span className="w-12 h-[1.5px] bg-primary relative z-10"></span> What we offer
         </span>
@@ -93,8 +93,8 @@ function OurServices() {
             </div>
           </div>
         </div>
-        <div className="w-full flex">
-          <div className="flex items-center flex-col w-1/4 border border-primary/50 p-8">
+        <div className="w-full flex max-sm:flex-wrap">
+          <div className="flex items-center flex-col w-1/4 max-sm:w-1/2 border border-primary/50 p-8">
             <h5 className="text-4xl font-bold font-heading text-primary">
               20+{" "}
             </h5>
@@ -103,7 +103,7 @@ function OurServices() {
               in <br /> service
             </span>
           </div>
-          <div className="flex items-center flex-col w-1/4 border border-primary/50 p-8">
+          <div className="flex items-center flex-col w-1/4 max-sm:w-1/2 border border-primary/50 p-8">
             <h5 className="text-4xl font-bold font-heading text-primary">
               100%{" "}
             </h5>
@@ -111,7 +111,7 @@ function OurServices() {
               Private <br /> clientele
             </span>
           </div>
-          <div className="flex items-center flex-col w-1/4 border border-primary/50 p-8">
+          <div className="flex items-center flex-col w-1/4 max-sm:w-1/2 border border-primary/50 p-8">
             <h5 className="text-4xl font-bold font-heading text-primary">
               24/7{" "}
             </h5>
@@ -119,7 +119,7 @@ function OurServices() {
               Always <br /> available
             </span>
           </div>
-          <div className="flex items-center flex-col w-1/4 border border-primary/50 p-8">
+          <div className="flex items-center flex-col w-1/4 max-sm:w-1/2 border border-primary/50 p-8">
             <h5 className="text-4xl font-bold font-heading text-primary">5 </h5>
             <span className="text-primary/50 text-body tracking-widest">
               Core <br /> services

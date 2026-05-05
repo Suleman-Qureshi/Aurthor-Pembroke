@@ -23,7 +23,7 @@ function AboutSection() {
             <p>Established with a clear purpose — to provide a level of service defined not by scale, but by consistency, discretion, and attention to detail. In an environment where convenience often replaces quality, we offer a more considered approach.</p>
             <p>Every service is arranged personally, every detail is accounted for, and every client is treated with the level of care expected from a private firm.</p>
         </div>
-        <div className='flex w-full items-center'>
+        <div className='flex w-full items-center flex-wrap'>
             <div className='h-20 w-1/3 max-sm:w-full border border-primary flex flex-col justify-center p-6 max-sm:p-2'>
             <h5 className='text-primary font-heading font-semibold'>01</h5>
             <p className='text-2xl font-semibold font-body'>Discretion</p>
