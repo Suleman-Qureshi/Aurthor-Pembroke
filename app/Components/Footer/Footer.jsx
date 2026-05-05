@@ -21,9 +21,9 @@ function Footer() {
           <h5 className='flex items-center max-md:flex-col-reverse gap-4 uppercase text-primary text-sm font-medium tracking-widest'> <span className="w-12 h-[1.5px] bg-primary my-8 max-md:my-2"></span> <span>navigation</span></h5>
           <div className='w-60 text-tertiary/40 tracking-widest leading-relaxed flex flex-col gap-4 my-2'>
            <Link href={'/'} className='relative hover:text-primary duration-200 before:absolute before:w-0 before:h-0.5 before:bg-primary before:-bottom-2 before:left-0 hover:before:w-12 before:duration-200'>Home</Link>
-           <Link href={'/'} className='relative hover:text-primary duration-200 before:absolute before:w-0 before:h-0.5 before:bg-primary before:-bottom-2 before:left-0 hover:before:w-12 before:duration-200'>About Us</Link>
-           <Link href={'/'} className='relative hover:text-primary duration-200 before:absolute before:w-0 before:h-0.5 before:bg-primary before:-bottom-2 before:left-0 hover:before:w-12 before:duration-200'>Services</Link>
-           <Link href={'/'} className='relative hover:text-primary duration-200 before:absolute before:w-0 before:h-0.5 before:bg-primary before:-bottom-2 before:left-0 hover:before:w-12 before:duration-200'>Enquires</Link>
+           <Link href={'/About'} className='relative hover:text-primary duration-200 before:absolute before:w-0 before:h-0.5 before:bg-primary before:-bottom-2 before:left-0 hover:before:w-12 before:duration-200'>About Us</Link>
+           <Link href={'/Services'} className='relative hover:text-primary duration-200 before:absolute before:w-0 before:h-0.5 before:bg-primary before:-bottom-2 before:left-0 hover:before:w-12 before:duration-200'>Services</Link>
+           <Link href={'/Services'} className='relative hover:text-primary duration-200 before:absolute before:w-0 before:h-0.5 before:bg-primary before:-bottom-2 before:left-0 hover:before:w-12 before:duration-200'>Enquires</Link>
           </div>
        </div>
         <div className='flex flex-col gap-4'>
