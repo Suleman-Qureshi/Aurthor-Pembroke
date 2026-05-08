@@ -45,7 +45,7 @@ function page() {
       <div className='py-4 border-y border-primary/50 w-full text-secondary font-body text-4xl font-medium'>Luxury is not loud. </div>
       <div className='py-4 border-b border-primary/50 w-full text-secondary font-body text-4xl font-medium'>Luxury is not rushed. </div>
       <div className='py-4 border-b border-primary/50 w-full text-gray-400 font-body text-2xl font-medium text-center'>Luxury is knowing that everything will be handled properly — <br />without needing to ask twice. </div>
-      <div className='py-4 font-body tracking-wider text-gray-400 font-medium'>Every service arranged personally. Every detail accounted for. <br />Every client treated with the care expected from a private firm.</div>
+      <div className='py-4 font-body tracking-wider text-gray-400 font-medium'>Every service arranged personally. Every Detail, Accounted For. <br />Every client treated with the care expected from a private firm.</div>
     </section>
     <section className='px-24 max-lg:px-12 max-md:px-4 max-md:flex-col-reverse py-12 max-md:text-center bg-secondary flex gap-8 items-center'>
       <div className='w-1/3 max-md:w-full flex items-center'>
@@ -80,25 +80,21 @@ function page() {
         <p>Luxury <br className='max-md:hidden' /> Concierge</p>
        </h5>
        <span className='w-24 h-[1.5px] bg-primary'></span>
-       <div className='flex flex-col bg-white w-88 font-body'>
+       <div className='flex flex-col bg-white w-96 font-body'>
        <div className='flex'>
-         <div className='w-40 h-40 border border-primary text-primary flex flex-col gap-2 justify-center text-center items-center'>
-          <span className='text-5xl font-heading'>20+</span>
-          <span className='tracking-[0.3rem] text-xs font-medium text-gray-400'>Years in <br /> service</span>
+         <div className='w-48 h-40 border border-primary text-primary flex flex-col gap-2 justify-center text-center items-center'>
+          <span className='text-2xl font-heading'>Private & Corporate Clients</span>
          </div>
          <div className='w-48 h-40 border border-primary text-primary flex flex-col gap-2 justify-center text-center items-center'>
-          <span className='text-5xl font-heading'>100+</span>
-          <span className='tracking-[0.3rem] text-xs font-medium text-gray-400'>Private <br /> clientele</span>
+          <span className='text-2xl font-heading'>London & Surrounding Areas</span>
          </div>
        </div>
        <div className='flex'>
-         <div className='w-40 h-40 border border-primary text-primary flex flex-col gap-2 justify-center text-center items-center'>
-          <span className='text-5xl font-heading'>24/7</span>
-          <span className='tracking-[0.3rem] text-xs font-medium text-gray-400'>Always <br /> available</span>
+         <div className='w-48 h-40 border border-primary text-primary flex flex-col gap-2 justify-center text-center items-center'>
+          <span className='text-2xl font-heading'>By Arrangement</span>
          </div>
          <div className='w-48 h-40 border border-primary text-primary flex flex-col gap-2 justify-center text-center items-center'>
-          <span className='text-5xl font-heading'>5</span>
-          <span className='tracking-[0.3rem] text-xs font-medium text-gray-400'>Core <br /> services</span>
+          <span className='text-2xl font-heading'>Discreet Service</span>
          </div>
        </div>
        </div>
@@ -113,7 +109,7 @@ function page() {
        <div className='flex max-md:flex-col gap-2 '>
        <div className='bg-tertiary/10 p-4 py-8 flex flex-col gap-8 w-full max-md:items-center'>
        <span className='font-heading text-6xl font-medium text-primary'>01</span>
-       <h5 className='text-tertiary text-3xl font-semibold font-heading'>Our Standered</h5>
+       <h5 className='text-tertiary text-3xl font-semibold font-heading'>Our Standard</h5>
        <span className='w-24 h-[1.5px] bg-primary'></span>
        <p className='text-gray-400 text-body text-lg'>We operate to a standard rather than a volume. Every client is treated individually, every service is bespoke, and every detail matters. We do not offer pre-defined packages or automated processes — only a tailored service that adapts to each client.</p>
        </div>
@@ -136,7 +132,7 @@ function page() {
         <span>Every Detail,</span>
         <i className='text-white/80'>Accounted For.</i>
        </h5>
-       <button className='w-60 py-2 border text-lg border-white/80 rounded-xl uppercase cursor-pointer hover:bg-secondary/80 duration-200'>make an enquiry</button>
+       <button className='w-60 py-2 border text-lg border-white/80 rounded-xl uppercase cursor-pointer hover:bg-secondary/80 duration-200'>make an Enquiries</button>
     </div>
     <Footer/>
     </div>

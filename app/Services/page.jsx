@@ -5,7 +5,9 @@ import NavBar from "../Components/Header/NavBar";
 import Footer from "../Components/Footer/Footer";
 import SwiperSlider from "../Components/Slider/SwiperSlider";
 import { HiOutlineDocumentDuplicate } from "react-icons/hi2";
+import { FiClock } from "react-icons/fi";
 import { GoDot } from "react-icons/go";
+import { RiFileList2Line } from "react-icons/ri";
 function page() {
   return (
     <>
@@ -35,7 +37,7 @@ function page() {
             Our Promise
           </span>
           <p className="italic tracking-widest w-96 font-extralight">
-            Bespoke chauffeur and concierge services for private and corporate
+            Bespoke Chauffeurur and concierge services for private and corporate
             clients who expect absolute reliability, discretion, and refinement.
           </p>
           <div className="w-full flex flex-col">
@@ -43,7 +45,7 @@ function page() {
               <HiOutlineDocumentDuplicate className=" border border-primary p-2 text-primary w-12 h-12" />
               <div className="flex flex-col">
                 <h5 className="font-heading tracking-[0.2rem] text-sm font-medium">
-                  Chauffeur & Transfer
+                  Chauffeurur & Transfer
                 </h5>
                 <p className="text-slate-500 font-light">
                   Executive airports · Corporate travel · Private itineraries
@@ -51,24 +53,24 @@ function page() {
               </div>
             </div>
             <div className="border border-primary p-4 w-full flex max-md:flex-col items-center gap-6 bg-white">
-              <HiOutlineDocumentDuplicate className=" border border-primary p-2 text-primary w-12 h-12" />
+              <FiClock  className=" border border-primary p-2 text-primary w-12 h-12" />
               <div className="flex flex-col">
                 <h5 className="font-heading tracking-[0.2rem] text-sm font-medium">
-                  Chauffeur & Transfer
+                  Same-Day Courier
                 </h5>
                 <p className="text-slate-500 font-light">
-                  Executive airports · Corporate travel · Private itineraries
+                  UK & Europe · Secure delivery · Hand-to-hand
                 </p>
               </div>
             </div>
             <div className="border border-primary p-4 w-full flex max-md:flex-col items-center gap-6 bg-white">
-              <HiOutlineDocumentDuplicate className=" border border-primary p-2 text-primary w-12 h-12" />
+              <RiFileList2Line className=" border border-primary p-2 text-primary w-12 h-12" />
               <div className="flex flex-col">
                 <h5 className="font-heading tracking-[0.2rem] text-sm font-medium">
-                  Chauffeur & Transfer
+                  Private Concierge
                 </h5>
                 <p className="text-slate-500 font-light">
-                  Executive airports · Corporate travel · Private itineraries
+                  Reservations · Errands · Lifestyle support
                 </p>
               </div>
             </div>
@@ -79,7 +81,7 @@ function page() {
               <p className="text-sm font-body">24 / 7 — 365 days</p>
             </div>
             <div className="">
-              <button className="w-60 py-3 cursor-pointer bg-secondary font-light text-tertiary uppercase tracking-[0.3rem] text-xs">make an enquiry</button>
+              <button className="w-60 py-3 cursor-pointer bg-secondary font-light text-tertiary uppercase tracking-[0.3rem] text-xs">make an Enquiries</button>
             </div>
           </div>
         </div>
@@ -96,15 +98,15 @@ function page() {
                   <i>Services</i>
                 </h2>
           </div>
-                <p className="text-slate-400 tracking-wider w-80 max-md:w-full text-lg font-light max-md:mb-8">Arthur Pembroke provides bespoke chauffeur and concierge services to private and corporate clients who expect absolute reliability, discretion, and refinement.</p>
+                <p className="text-slate-400 tracking-wider w-80 max-md:w-full text-lg font-light max-md:mb-8">Arthur Pembroke provides bespoke Chauffeurur and concierge services to private and corporate clients who expect absolute reliability, discretion, and refinement.</p>
         </div>
         <div className="flex max-sm:flex-col border-t border-primary px-24 max-lg:px-12 max-md:px-0 w-full">
           <div className="w-1/2 max-sm:w-full p-8 border-x-[1px] max-sm:border-x-0 border-primary flex flex-col gap-8">
           <h2 className="text-3xl font-extralight text-primary flex items-center gap-2 font-body">
-                  <span className="text-secondary">Chauffeur</span>
+                  <span className="text-secondary">Chauffeurur</span>
                   <i>& Transfer</i>
                 </h2>
-                 <p className="text-slate-400 tracking-wider  font-light">Our chauffeur services are designed for clients who require more than transport. Each journey is carefully managed to ensure punctuality, comfort, and discretion.</p>
+                 <p className="text-slate-400 tracking-wider  font-light">Our Chauffeurur services are designed for clients who require more than transport. Each journey is carefully managed to ensure punctuality, comfort, and discretion.</p>
                  <div className="flex w-full flex-col">
                   <div className="flex flex-col gap-1 p-2 border-t-[1px] border-primary">
                     <h5 className="flex items-center gap-4">

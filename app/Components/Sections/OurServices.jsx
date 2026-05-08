@@ -29,7 +29,7 @@ function OurServices() {
             <span className=" font-heading text-primary">01</span>
             <IoCarOutline className="text-primary text-5xl" />
             <h5 className="text-tertiary font-heading font-semibold text-4xl tracking-wide leading-relaxed">
-              Chauffeur & Transfer
+              Chauffeurur & Transfer
             </h5>
             <p className="text-lg tracking-wider font-body text-tertiary/50 leading-loose">
               Door-to-door ground transport in our fleet of Rolls-Royce,
@@ -41,7 +41,7 @@ function OurServices() {
               <button className="flex gap-4 items-center p-4 border border-primary/50 rounded-xl hover:bg-secondary/25 cursor-pointer curation-200 group">
                 <span className="w-12 h-[1.5px] bg-primary rounded-full group-hover:w-20 duration-200"></span>
                 <span className=" font-heading uppercase text-tertiary text-lg font-semibold tracking-widest">
-                  enquires
+                  Enquiries
                 </span>
               </button>
             </div>
@@ -76,8 +76,7 @@ function OurServices() {
                 Personal Concierge
               </h5>
               <p className="tracking-wider font-body text-tertiary/50 leading-loose">
-                Seamless logistics for executives — airport meet-and-greet,
-                roadshows, and multi-city coordination handled discreetly.
+                A dedicated point of contact for lifestyle management — reservations, arrangements, and requests handled personally.
               </p>
             </div>
             <div className="p-8 border border-primary/50 hover:bg-primary/25 relative flex flex-col gap-4 w-1/2  max-md:w-full before:absolute before:w-0 before:h-0.5 before:bg-primary before:top-0 before:left-0 before:duration-400 hover:before:w-full">
@@ -87,53 +86,39 @@ function OurServices() {
                 Bespoke <br /> Travel
               </h5>
               <p className="tracking-wider font-body text-tertiary/50 leading-loose">
-                Seamless logistics for executives — airport meet-and-greet,
-                roadshows, and multi-city coordination handled discreetly.
+                Curated itineraries and ground arrangements for international travel — built around your schedule, not ours.
               </p>
             </div>
           </div>
         </div>
-        <div className="w-full flex max-sm:flex-wrap">
-          <div className="flex items-center flex-col w-1/4 max-sm:w-1/2 border border-primary/50 p-8">
-            <h5 className="text-4xl font-bold font-heading text-primary">
-              20+{" "}
-            </h5>
-            <span className="text-primary/50 text-body tracking-widest">
-              Years <br />
-              in <br /> service
-            </span>
+        <div className="w-full flex max-sm:flex-wrap text-center">
+          <div className="items-center w-1/4 max-sm:w-1/2 border border-primary/50 p-8 content-center">
+            <h5 className="text-2xl font-bold font-heading text-primary">
+              Private & Corporate Clients
+            </h5> 
           </div>
-          <div className="flex items-center flex-col w-1/4 max-sm:w-1/2 border border-primary/50 p-8">
-            <h5 className="text-4xl font-bold font-heading text-primary">
-              100%{" "}
+          <div className="items-center w-1/4 max-sm:w-1/2 border border-primary/50 p-8 content-center">
+            <h5 className="text-2xl font-bold font-heading text-primary">
+             London & Surrounding Areas
             </h5>
-            <span className="text-primary/50 text-body tracking-widest">
-              Private <br /> clientele
-            </span>
           </div>
-          <div className="flex items-center flex-col w-1/4 max-sm:w-1/2 border border-primary/50 p-8">
-            <h5 className="text-4xl font-bold font-heading text-primary">
-              24/7{" "}
+          <div className="items-center w-1/4 max-sm:w-1/2 border border-primary/50 p-8 content-center">
+            <h5 className="text-2xl font-bold font-heading text-primary">
+              By Arrangement
             </h5>
-            <span className="text-primary/50 text-body tracking-widest">
-              Always <br /> available
-            </span>
           </div>
-          <div className="flex items-center flex-col w-1/4 max-sm:w-1/2 border border-primary/50 p-8">
-            <h5 className="text-4xl font-bold font-heading text-primary">5 </h5>
-            <span className="text-primary/50 text-body tracking-widest">
-              Core <br /> services
-            </span>
+          <div className="items-center w-1/4 max-sm:w-1/2 border border-primary/50 p-8 content-center">
+            <h5 className="text-2xl font-bold font-heading text-primary">By Arrangement </h5>
           </div>
         </div>
       </section>
       <div className="w-screen flex max-lg:flex-col max-lg:text-center  gap-4 px-24 py-12 items-center font-extrabold text-6xl font-heading bg-tertiary justify-center">
         <span className="text-primary/50">Every Detail,</span>
-        <span className="text-primary">Accounted for.</span>
+        <span className="text-primary">Accounted For.</span>
         <div className="h-full flex items-center ml-8 border border-secondary rounded-xl">
           <button className="p-4 content-center w-56 h-14 text-center text-xl bg-transparent rounded-xl text-secondary text-semibold relative before:absolute before:w-full duration-200 hover:duration-200 before:duration-200 before:h-full before:translate-y-full hover:before:translate-y-0 overflow-hidden before:bg-secondary before:bottom-0 before:left-0 z-0 hover:text-primary cursor-pointer ">
             <span className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full">
-              Make an enquiery
+              Make an enquiry
             </span>
           </button>
         </div>
