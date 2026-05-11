@@ -115,6 +115,13 @@ function page() {
                     </h5>
                        <p className="text-slate-400 tracking-wider  font-light pl-7">First & Business Class collections, private terminal handling</p>
                   </div>
+                  <div className="flex flex-col gap-1 p-2 border-t-[1px] border-primary">
+                    <h5 className="flex items-center gap-4">
+                      <span className="text-primary">◆</span>
+                      <span className="font-light">Airport Coverage</span>
+                    </h5>
+                       <p className="text-slate-400 tracking-wider  font-light pl-7">Heathrow, Gatwick, Farnborough, Luton & Stansted with flight monitoring</p>
+                  </div>
                   <div className="flex flex-col gap-1 p-2 border-y-[1px] border-primary">
                     <h5 className="flex items-center gap-4">
                       <span className="text-primary">◆</span>
@@ -135,20 +142,91 @@ function page() {
            <span className="font-heading tracking-[0.2rem] text-sm font-medium text-primary">
                FLEET
                 </span>
-                       <p className="text-slate-400  font-light  font-heading">"Every journey handled with the care expected from a private firm."</p>
+                       <p className="text-slate-400  font-light text-xl tracking-wider leading-relaxed font-heading">"Every journey handled with the care expected from a private firm."</p>
                        <div className=" flex items-center gap-4 flex-wrap">
                         <span className="px-4 py-1 border-[1px] border-primary text-primary text-sm font-light tracking-wider">Rolls-Royce</span>
                         <span className="px-4 py-1 border-[1px] border-primary text-primary text-sm font-light tracking-wider">Bentley</span>
                         <span className="px-4 py-1 border-[1px] border-primary text-primary text-sm font-light tracking-wider">Mercedes S-Class</span>
+                       </div>
+                        <div className="w-full h-[0.5px] bg-primary"></div>
+                       <span className="font-heading tracking-[0.2rem] text-sm font-medium text-primary ">
+              Meet & Greet
+                </span>
+                <p className="text-slate-400  font-light text-xl tracking-wider leading-relaxed font-heading">"Punctual collection, nameboard, direct journey — no waiting, no uncertainty."</p>
+                 <div className=" flex items-center gap-4 flex-wrap uppercase text-sm font-light tracking-wider text-primary">
+                        <span className="px-4 py-1 border-[1px] border-primary ">Flight Monitored</span>
+                        <span className="px-4 py-1 border-[1px] border-primary ">All Terminals</span>
+                        <span className="px-4 py-1 border-[1px] border-primary ">All Hours</span>
                        </div>
           </div>
         </div>
         <div className="flex max-sm:flex-col border-t border-primary px-24 max-lg:px-12 max-md:px-4 w-full">
          <div className="w-1/2 max-sm:w-full max-sm:border-x-0 p-8 border-x-[1px] border-primary flex flex-col gap-8">
          <h2 className="text-3xl font-extralight text-primary flex items-center gap-2 font-body">
-                  <span className="text-secondary">Concierge </span>
-                  <i>Services</i>
+                  <span className="text-secondary">Same-Day  </span>
+                  <i>Courier</i>
                 </h2>
+                <p className="text-slate-400 tracking-wider  font-light">Discreet same-day courier service for urgent, high-value, or time-sensitive items across the UK and throughout Europe.</p>
+                <div className="flex w-full flex-col">
+                  <div className="flex flex-col gap-1 p-2 border-t-[1px] border-primary">
+                    <h5 className="flex items-center gap-4">
+                      <span className="text-primary">◆</span>
+                      <span className="font-light">Secure Document Delivery</span>
+                    </h5>
+                       <p className="text-slate-400 tracking-wider  font-light pl-7">Legal and corporate paperwork, contracts, sensitive materials</p>
+                  </div>
+                  <div className="flex flex-col gap-1 p-2 border-y-[1px] border-primary">
+                    <h5 className="flex items-center gap-4">
+                      <span className="text-primary">◆</span>
+                      <span className="font-light">Direct Hand-Delivery</span>
+                    </h5>
+                       <p className="text-slate-400 tracking-wider  font-light pl-7">Hand-to-hand personal delivery with confirmation</p>
+                  </div>
+                  <div className="flex flex-col gap-1 p-2 border-b-[1px] border-primary">
+                    <h5 className="flex items-center gap-4">
+                      <span className="text-primary">◆</span>
+                      <span className="font-light">Priority Collections</span>
+                    </h5>
+                       <p className="text-slate-400 tracking-wider  font-light pl-7">Urgent, high-value, or time-critical items</p>
+                  </div>
+                  <div className="flex flex-col gap-1 p-2 border-b-[1px] border-primary">
+                    <h5 className="flex items-center gap-4">
+                      <span className="text-primary">◆</span>
+                      <span className="font-light">UK & Europe Coverage</span>
+                    </h5>
+                       <p className="text-slate-400 tracking-wider  font-light pl-7">Nationwide and cross-border delivery solutions</p>
+                  </div>
+                 </div>
+         </div>
+          <div className="w-1/2 max-sm:w-full p-8 flex flex-col gap-8">
+           <span className="font-heading tracking-[0.2rem] text-sm font-medium text-primary">
+               Nationwide and cross-border delivery solutions
+                </span>
+                       <p className="text-slate-400  font-light text-xl tracking-wider leading-relaxed font-heading">"A trusted presence, arranged personally and delivered with complete discretion."</p>
+                       <div className=" flex items-center gap-4 flex-wrap uppercase text-sm font-light tracking-wider text-primary">
+                        <span className="px-4 py-1 border-[1px] border-primary ">Private</span>
+                        <span className="px-4 py-1 border-[1px] border-primary ">Confidential</span>
+                        <span className="px-4 py-1 border-[1px] border-primary ">Personal</span>
+                       </div>
+                       <div className="w-full h-[0.5px] bg-primary"></div>
+                       <span className="font-heading tracking-[0.2rem] text-sm font-medium text-primary ">
+              Coverage
+                </span>
+                <p className="text-slate-400  font-light text-xl tracking-wider leading-relaxed font-heading">"All collections considered, regardless of distance, nature, or time of day."</p>
+                 <div className=" flex items-center gap-4 flex-wrap uppercase text-sm font-light tracking-wider text-primary">
+                        <span className="px-4 py-1 border-[1px] border-primary ">UK-Wide</span>
+                        <span className="px-4 py-1 border-[1px] border-primary ">Europe</span>
+                        <span className="px-4 py-1 border-[1px] border-primary ">24 / 7</span>
+                       </div>
+
+          </div>
+        </div>
+        <div className="flex max-sm:flex-col border-t border-primary px-24 max-lg:px-12 max-md:px-4 w-full">
+         <div className="w-1/2 max-sm:w-full max-sm:border-x-0 p-8 border-x-[1px] border-primary flex flex-col gap-8">
+         <h2 className="text-3xl font-extralight text-primary flex items-center gap-2 font-body">
+                  <span className="text-secondary">Private  </span>
+                  <i>Concierge</i>
+                </h2>Quotation
                 <p className="text-slate-400 tracking-wider  font-light">A discreet concierge offering for clients requiring trusted assistance beyond transport. Handled personally, without delegation to third parties.</p>
                 <div className="flex w-full flex-col">
                   <div className="flex flex-col gap-1 p-2 border-t-[1px] border-primary">
@@ -172,18 +250,35 @@ function page() {
                     </h5>
                        <p className="text-slate-400 tracking-wider  font-light pl-7">Discreet handling of personal and sensitive matters</p>
                   </div>
+                  <div className="flex flex-col gap-1 p-2 border-b-[1px] border-primary">
+                    <h5 className="flex items-center gap-4">
+                      <span className="text-primary">◆</span>
+                      <span className="font-light">Lifestyle Support</span>
+                    </h5>
+                       <p className="text-slate-400 tracking-wider  font-light pl-7">Personal assistance handled efficiently and confidentially</p>
+                  </div>
                  </div>
          </div>
           <div className="w-1/2 max-sm:w-full p-8 flex flex-col gap-8">
            <span className="font-heading tracking-[0.2rem] text-sm font-medium text-primary">
-               Scope
+               Corporate & Executive
                 </span>
-                       <p className="text-slate-400  font-light  font-heading">"A trusted presence, arranged personally and delivered with complete discretion."</p>
-                       <div className=" flex items-center gap-4 flex-wrap">
-                        <span className="px-4 py-1 border-[1px] border-primary text-primary text-sm font-light tracking-wider">Private</span>
-                        <span className="px-4 py-1 border-[1px] border-primary text-primary text-sm font-light tracking-wider">Confidential</span>
-                        <span className="px-4 py-1 border-[1px] border-primary text-primary text-sm font-light tracking-wider">Personal</span>
+                       <p className="text-slate-400  font-light text-xl tracking-wider leading-relaxed font-heading">"Executive transport, ongoing arrangements, and discreet handling of sensitive business requirements."</p>
+                       <div className=" flex items-center gap-4 flex-wrap uppercase text-sm font-light tracking-wider text-primary">
+                        <span className="px-4 py-1 border-[1px] border-primary ">Executives</span>
+                        <span className="px-4 py-1 border-[1px] border-primary ">Corporate Teams</span>
+                        <span className="px-4 py-1 border-[1px] border-primary ">Events</span>
                        </div>
+                       <div className="w-full h-[1px] bg-primary"></div>
+                       <span className="font-heading tracking-[0.2rem] text-sm font-medium text-primary ">
+              A Bespoke Approach
+                </span>
+                <p className="text-slate-400  font-light text-xl tracking-wider leading-relaxed font-heading">"No fixed packages or pricing — flexibility and precision for every client, every time."</p>
+                 <div className=" flex items-center gap-4 flex-wrap uppercase text-sm font-light tracking-wider text-primary">
+                        <span className="px-4 py-1 border-[1px] border-primary ">By Quotation</span>
+                        <span className="px-4 py-1 border-[1px] border-primary ">Individually Arranged</span>
+                       </div>
+
           </div>
         </div>
       </section>
