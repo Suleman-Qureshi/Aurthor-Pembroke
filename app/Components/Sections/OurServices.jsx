@@ -4,6 +4,7 @@ import { SlCalender } from "react-icons/sl";
 import { CiStar } from "react-icons/ci";
 import { FiUserCheck } from "react-icons/fi";
 import { SlTarget } from "react-icons/sl";
+import { LuPackageOpen } from "react-icons/lu";
 function OurServices() {
   return (
     <>
@@ -91,6 +92,26 @@ function OurServices() {
             </div>
           </div>
         </div>
+<div className="p-8  bg-primary/25 relative flex flex-col gap-4 w-full before:absolute before:w-0 before:h-0.5 before:bg-primary before:top-0 before:left-0 before:duration-400 hover:before:w-full">
+            <span className=" font-heading text-primary">06</span>
+            <LuPackageOpen  className="text-primary text-5xl" />
+            <h5 className="text-tertiary font-heading font-semibold text-4xl tracking-wide leading-relaxed">
+              Same‑Day Courier
+            </h5>
+            <p className="text-lg tracking-wider font-body text-tertiary/50 leading-loose">
+              Time‑critical and confidential delivery across the UK and Europe. Secure documents and high‑value consignments handled with discretion, precision, and direct hand confirmation.
+            </p>
+            <div>
+              <button className="flex gap-4 items-center p-4 border border-primary/50 rounded-xl hover:bg-secondary/25 cursor-pointer curation-200 group">
+                <span className="w-12 h-[1.5px] bg-primary rounded-full group-hover:w-20 duration-200"></span>
+                <span className=" font-heading uppercase text-tertiary text-lg font-semibold tracking-widest">
+                  Enquiries
+                </span>
+              </button>
+            </div>
+          </div>
+
+
         <div className="w-full flex max-sm:flex-wrap text-center">
           <div className="items-center w-1/4 max-sm:w-1/2 border border-primary/50 p-8 content-center">
             <h5 className="text-2xl font-bold font-heading text-primary">

@@ -144,9 +144,7 @@ function page() {
                 </span>
                        <p className="text-slate-400  font-light text-xl tracking-wider leading-relaxed font-heading">"Every journey handled with the care expected from a private firm."</p>
                        <div className=" flex items-center gap-4 flex-wrap">
-                        <span className="px-4 py-1 border-[1px] border-primary text-primary text-sm font-light tracking-wider">Rolls-Royce</span>
-                        <span className="px-4 py-1 border-[1px] border-primary text-primary text-sm font-light tracking-wider">Bentley</span>
-                        <span className="px-4 py-1 border-[1px] border-primary text-primary text-sm font-light tracking-wider">Mercedes S-Class</span>
+                        <span className="px-4 py-1 border-[1px] border-primary text-primary text-sm font-light tracking-wider">Executive Vehicles</span>
                        </div>
                         <div className="w-full h-[0.5px] bg-primary"></div>
                        <span className="font-heading tracking-[0.2rem] text-sm font-medium text-primary ">
