@@ -15,7 +15,7 @@ function page() {
       <section className="w-screen h-screen max-2xl:h-auto px-24 max-lg:px-12 max-lg:flex-col pb-8 max-md:px-4 pt-36 max-md:pt-18 flex max-md:text-center max-md:items-center">
         <div className="flex flex-col justify-between max-md:items-center gap-8 w-full pb-10">
           <div className="font-heading flex gap-6 uppercase tracking-[0.3rem] text-sm text-primary">
-            <span>aurthor pembroke</span>
+            <span>authur pembroke</span>
             <GoDotFill className="text-primary" />
             <span>what we offer</span>
           </div>
@@ -78,10 +78,10 @@ function page() {
           <div className="w-full flex items-center justify-between pt-8 border-t border-primary">
             <div className="flex flex-col">
               <span className="font-heading flex gap-12 uppercase tracking-[0.3rem] text-[0.60rem] text-primary">Availability</span>
-              <p className="text-sm font-body">24 / 7 — 365 days</p>
+              <p className="text-sm font-body">24/7 — 365 days</p>
             </div>
             <div className="">
-              <button className="w-60 py-3 cursor-pointer bg-secondary font-light text-tertiary uppercase tracking-[0.3rem] text-xs">make an Enquiries</button>
+              <button className="w-60 py-3 cursor-pointer bg-secondary font-light text-tertiary uppercase tracking-[0.3rem] text-xs">make an ENQUIRY</button>
             </div>
           </div>
         </div>
@@ -214,7 +214,7 @@ function page() {
                  <div className=" flex items-center gap-4 flex-wrap uppercase text-sm font-light tracking-wider text-primary">
                         <span className="px-4 py-1 border-[1px] border-primary ">UK-Wide</span>
                         <span className="px-4 py-1 border-[1px] border-primary ">Europe</span>
-                        <span className="px-4 py-1 border-[1px] border-primary ">24 / 7</span>
+                        <span className="px-4 py-1 border-[1px] border-primary ">24/7</span>
                        </div>
 
           </div>
