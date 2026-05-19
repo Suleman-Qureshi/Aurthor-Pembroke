@@ -11,7 +11,7 @@ function Footer() {
         <div className='flex flex-col max-md:items-center gap-4'>
           <Image src={'/dark logo.svg'} alt='dark logo' width={200} height={120} />
           <span className="w-24 h-[1.5px] bg-primary my-8"></span>
-          <p className='w-60 max-md:w-full text-tertiary/40 tracking-widest leading-relaxed'>Providing bespoke chauffeurur and concierge services to private and corporate clients who expect absolute reliability, discretion, and refinement.</p>
+          <p className='w-60 max-md:w-full text-tertiary/40 tracking-widest leading-relaxed'>Providing bespoke chauffeur and concierge services to private and corporate clients who expect absolute reliability, discretion, and refinement.</p>
           <div className='flex gap-4 items-center my-2'>
             <a href="mailto:enquiries@arthurpembroke.com" className=' w-8 h-8 rounded-lg border border-tertiary/40 text-tertiary/40 hover:border-primary duration-200 hover:text-primary text-2xl flex justify-center items-center cursor-pointer'><IoIosMail /></a>
             <a href='tel:+447811247446' className=' w-8 h-8 rounded-lg border border-tertiary/40 text-tertiary/40 hover:border-primary duration-200 hover:text-primary text-lg flex justify-center items-center cursor-pointer'><FaPhone /></a>
@@ -30,7 +30,7 @@ function Footer() {
         <div className='flex flex-col gap-4'>
           <h5 className='flex items-center max-md:flex-col-reverse gap-4 uppercase text-primary text-sm font-medium tracking-widest'> <span className="w-12 h-[1.5px] bg-primary my-8 max-md:my-2"></span> <span>Services</span></h5>
           <div className='w-60 text-tertiary/40 tracking-widest leading-relaxed flex flex-col gap-4 my-2'>
-           <Link href={'/'} className='relative hover:text-primary duration-200 before:absolute before:w-0 before:h-0.5 before:bg-primary before:-bottom-2 before:left-0 hover:before:w-12 before:duration-200'>Chauffeurr & <br className='max-md:hidden' /> Transfer</Link>
+           <Link href={'/'} className='relative hover:text-primary duration-200 before:absolute before:w-0 before:h-0.5 before:bg-primary before:-bottom-2 before:left-0 hover:before:w-12 before:duration-200'>chauffeur & <br className='max-md:hidden' /> Transfer</Link>
            <Link href={'/'} className='relative hover:text-primary duration-200 before:absolute before:w-0 before:h-0.5 before:bg-primary before:-bottom-2 before:left-0 hover:before:w-12 before:duration-200'>Corporate <br className='max-md:hidden' />Concierge </Link>
            <Link href={'/'} className='relative hover:text-primary duration-200 before:absolute before:w-0 before:h-0.5 before:bg-primary before:-bottom-2 before:left-0 hover:before:w-12 before:duration-200'>Private <br className='max-md:hidden' />Events </Link>
            <Link href={'/'} className='relative hover:text-primary duration-200 before:absolute before:w-0 before:h-0.5 before:bg-primary before:-bottom-2 before:left-0 hover:before:w-12 before:duration-200'>Personal <br className='max-md:hidden' />Concierge </Link>

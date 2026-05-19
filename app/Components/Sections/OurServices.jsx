@@ -30,7 +30,7 @@ function OurServices() {
             <span className=" font-heading text-primary">01</span>
             <IoCarOutline className="text-primary text-5xl" />
             <h5 className="text-tertiary font-heading font-semibold text-4xl tracking-wide leading-relaxed">
-              Chauffeurur & Transfer
+              chauffeur & Transfer
             </h5>
             <p className="text-lg tracking-wider font-body text-tertiary/50 leading-loose">
               Door-to-door ground transport in our fleet of Rolls-Royce,
