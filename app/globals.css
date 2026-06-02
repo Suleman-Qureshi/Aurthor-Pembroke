@@ -5,6 +5,9 @@
 :root {
 
 }
+input[type="date"]::-webkit-calendar-picker-indicator {
+  display: none;
+} 
 .font-heading {
   font-family: var(--font-cinzel);
 }
