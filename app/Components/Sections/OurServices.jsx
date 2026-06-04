@@ -120,17 +120,17 @@ function OurServices() {
             </h5> 
           </div>
           <div className="items-center w-1/4 max-sm:w-1/2 border border-primary/50 p-8 content-center">
-            <h5 className="text-2xl font-bold font-heading text-primary">
+            <h5 className="text-2xl max-sm:text-xl font-bold font-heading text-primary">
              London & Surrounding Areas
             </h5>
           </div>
           <div className="items-center w-1/4 max-sm:w-1/2 border border-primary/50 p-8 content-center">
-            <h5 className="text-2xl font-bold font-heading text-primary">
+            <h5 className="text-2xl max-sm:text-xl font-bold font-heading text-primary">
               By Arrangement
             </h5>
           </div>
           <div className="items-center w-1/4 max-sm:w-1/2 border border-primary/50 p-8 content-center">
-            <h5 className="text-2xl font-bold font-heading text-primary">By Arrangement </h5>
+            <h5 className="text-2xl max-sm:text-xl font-bold font-heading text-primary">Discreet Service</h5>
           </div>
         </div>
       </section>

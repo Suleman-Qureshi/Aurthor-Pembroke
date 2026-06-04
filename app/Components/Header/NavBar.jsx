@@ -14,7 +14,7 @@ function NavBar() {
   const [mobileMenu,setMobileMenu]=useState(false)
   return (
     <>
-    <nav className='w-12 h-12 right-0 bg-tertiary fixed flex p-4 items-center justify-between' onClick={()=>setMobileMenu(!mobileMenu)}>
+    <nav className='w-12 h-12 left-4  top-4 border border-secondary bg-tertiary fixed flex p-4 items-center justify-between z-50' onClick={()=>setMobileMenu(!mobileMenu)}>
       <FaBars className="text-secondary" />
     </nav>
 

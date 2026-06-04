@@ -20,7 +20,7 @@ function page() {
             <GoDotFill className="text-primary" />
             <span>what we offer</span>
           </div>
-          <h1 className="flex font-heading flex-col gap-4 text-8xl max-xl:text-7xl font-medium">
+          <h1 className="flex font-heading flex-col gap-4 text-8xl max-xl:text-7xl max-md:text-6xl max-md:text-5xl font-medium">
             <span>Discretion.</span>
 
             <span
