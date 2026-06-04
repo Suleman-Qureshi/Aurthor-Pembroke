@@ -8,6 +8,7 @@ import { HiOutlineDocumentDuplicate } from "react-icons/hi2";
 import { FiClock } from "react-icons/fi";
 import { GoDot } from "react-icons/go";
 import { RiFileList2Line } from "react-icons/ri";
+import Link from "next/link";
 function page() {
   return (
     <>
@@ -81,7 +82,7 @@ function page() {
               <p className="text-sm font-body">24/7 — 365 days</p>
             </div>
             <div className="">
-              <button className="w-60 py-3 cursor-pointer bg-secondary font-light text-tertiary uppercase tracking-[0.3rem] text-xs">make an ENQUIRY</button>
+              <Link href={'/Enquiries'} className="w-60 py-3 px-2 cursor-pointer bg-secondary font-light text-tertiary uppercase tracking-[0.3rem] text-xs">make an ENQUIRY</Link>
             </div>
           </div>
         </div>

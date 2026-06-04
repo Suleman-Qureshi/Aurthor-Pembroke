@@ -2,7 +2,12 @@
 import { redirect } from "next/navigation";
 import React, { useRef } from "react";
 import { useForm } from "react-hook-form";
+import { useRouter } from "next/navigation";
+import { useState } from "react";
 function EnquiriesForm() {
+  const [showPopup, setShowPopup] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const router = useRouter();
   const dateRef = useRef(null);
   const timeRef = useRef(null);
 
@@ -24,28 +29,57 @@ function EnquiriesForm() {
     formState: { errors },
   } = useForm();
 
-  const onSubmit = async (data) => {
-    try {
-      const res = await fetch("/api/enquiry", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(data),
-      });
+const onSubmit = async (data) => {
+  try {
+    setLoading(true);
 
-      const result = await res.json();
+    const res = await fetch("/api/enquiry", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(data),
+    });
 
-      if (!res.ok) {
-        throw new Error(result.error || "Something went wrong");
-      }
+    const result = await res.json();
 
-      router.push("/");
-    } catch (error) {
-      console.log("Submit error:", error);
+    if (!res.ok) {
+      throw new Error(result.error || "Something went wrong");
     }
-  };
+
+    setShowPopup(true);
+
+  } catch (error) {
+    console.log("Submit error:", error);
+  } finally {
+    setLoading(false);
+  }
+};
   return (
+    <>
+    {showPopup && (
+  <div className="fixed inset-0 flex items-center justify-center bg-black/60 z-50 backdrop-blur-xs">
+    <div className="bg-tertiary border border-primary  shadow-primary p-8 rounded-xl shadow-xl text-center max-w-md w-full">
+      <h2 className="text-2xl font-semibold mb-4 text-green-600">
+        ✅ Enquiry Sent Successfully!
+      </h2>
+
+      <p className="text-gray-600 mb-6">
+       Thank you for choosing Author Pembroke. We’ll be in touch shortly.⭐
+      </p>
+
+      <button
+        onClick={() => {
+          setShowPopup(false);
+          router.replace("/");
+        }}
+        className="bg-primary text-secondary font-body px-6 py-2 rounded-lg cursor-pointer"
+      >
+        Go To Home
+      </button>
+    </div>
+  </div>
+)}
     <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col gap-8">
       <div className="flex flex-col gap-2">
         <div className="flex gap-2 items-center">
@@ -87,7 +121,7 @@ function EnquiriesForm() {
             type="email"
             className="text-tertiary border-b  outline-none border-primary/50 focus:border-primary p-2 text-sm tracking-widest"
             placeholder="your@emai.com"
-            {...register("Email", { required: "Required" })}
+            {...register("Email", { required: "Required",pattern: {value: /^[^\s@]+@[^\s@]+\.[^\s@]+$/,message:'invalid email address',}, },)}
           />
         </div>
       </div>
@@ -288,7 +322,7 @@ function EnquiriesForm() {
           className="border-b bg-secondary border-primary/50 focus:border-primary outline-none cursor-pointer text-tertiary p-2 text-sm tracking-widest"
           {...register("How_did_you_hear_about_us")}
         >
-          <option value="Select service " className="text-tertiary/40">
+          <option value="Select service " className="text-tertiary/40" >
             Select an option
           </option>
           <option value="Recommendation">Recommendation</option>
@@ -311,6 +345,7 @@ function EnquiriesForm() {
         </button>
       </div>
     </form>
+    </>
   );
 }
 

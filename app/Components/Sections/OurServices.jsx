@@ -5,6 +5,7 @@ import { CiStar } from "react-icons/ci";
 import { FiUserCheck } from "react-icons/fi";
 import { SlTarget } from "react-icons/sl";
 import { LuPackageOpen } from "react-icons/lu";
+import Link from "next/link";
 function OurServices() {
   return (
     <>
@@ -39,12 +40,12 @@ function OurServices() {
               roadshows to long-distance transfers.
             </p>
             <div>
-              <button className="flex gap-4 items-center p-4 border border-primary/50 rounded-xl hover:bg-secondary/25 cursor-pointer curation-200 group">
+              <Link href={'/Enquiries'} className="flex gap-4 w-60 items-center p-4 border border-primary/50 rounded-xl hover:bg-secondary/25 cursor-pointer curation-200 group">
                 <span className="w-12 h-[1.5px] bg-primary rounded-full group-hover:w-20 duration-200"></span>
                 <span className=" font-heading uppercase text-tertiary text-lg font-semibold tracking-widest">
                   Enquiries
                 </span>
-              </button>
+              </Link>
             </div>
           </div>
           <div className="flex flex-wrap w-2/3 max-md:w-full">
@@ -102,12 +103,12 @@ function OurServices() {
               Time‑critical and confidential delivery across the UK and Europe. Secure documents and high‑value consignments handled with discretion, precision, and direct hand confirmation.
             </p>
             <div>
-              <button className="flex gap-4 items-center p-4 border border-primary/50 rounded-xl hover:bg-secondary/25 cursor-pointer curation-200 group">
+              <Link href={'/Enquiries'} className="flex w-60 gap-4 items-center p-4 border border-primary/50 rounded-xl hover:bg-secondary/25 cursor-pointer curation-200 group">
                 <span className="w-12 h-[1.5px] bg-primary rounded-full group-hover:w-20 duration-200"></span>
                 <span className=" font-heading uppercase text-tertiary text-lg font-semibold tracking-widest">
                   Enquiries
                 </span>
-              </button>
+              </Link>
             </div>
           </div>
 
@@ -137,11 +138,11 @@ function OurServices() {
         <span className="text-primary/50">Every Detail,</span>
         <span className="text-primary">Accounted For.</span>
         <div className="h-full flex items-center ml-8 border border-secondary rounded-xl">
-          <button className="p-4 content-center w-56 h-14 text-center text-xl bg-transparent rounded-xl text-secondary text-semibold relative before:absolute before:w-full duration-200 hover:duration-200 before:duration-200 before:h-full before:translate-y-full hover:before:translate-y-0 overflow-hidden before:bg-secondary before:bottom-0 before:left-0 z-0 hover:text-primary cursor-pointer ">
+          <Link href={'/Enquiries'} className="p-4 content-center w-56 h-14 text-center text-xl bg-transparent rounded-xl text-secondary text-semibold relative before:absolute before:w-full duration-200 hover:duration-200 before:duration-200 before:h-full before:translate-y-full hover:before:translate-y-0 overflow-hidden before:bg-secondary before:bottom-0 before:left-0 z-0 hover:text-primary cursor-pointer ">
             <span className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full">
               Make an enquiry
             </span>
-          </button>
+          </Link>
         </div>
       </div>
     </>

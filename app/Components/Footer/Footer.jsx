@@ -3,6 +3,7 @@ import Link from 'next/link'
 import React from 'react'
 import { IoIosMail } from "react-icons/io";
 import { FaPhone } from "react-icons/fa6";
+import { FaWhatsapp } from "react-icons/fa";
 function Footer() {
   return (
     <footer className="w-screen  flex flex-col justify-center items-center">
@@ -14,8 +15,8 @@ function Footer() {
           <p className='w-60 max-md:w-full text-tertiary/40 tracking-widest leading-relaxed'>Providing bespoke chauffeur and concierge services to private and corporate clients who expect absolute reliability, discretion, and refinement.</p>
           <div className='flex gap-4 items-center my-2'>
             <a href="mailto:enquiries@arthurpembroke.com" className=' w-8 h-8 rounded-lg border border-tertiary/40 text-tertiary/40 hover:border-primary duration-200 hover:text-primary text-2xl flex justify-center items-center cursor-pointer'><IoIosMail /></a>
-            <a href='tel:+447811247446' className=' w-8 h-8 rounded-lg border border-tertiary/40 text-tertiary/40 hover:border-primary duration-200 hover:text-primary text-lg flex justify-center items-center cursor-pointer'><FaPhone /></a>
-            <div className=' w-8 h-8 rounded-lg border border-tertiary/40 text-tertiary/40 hover:border-primary duration-200 hover:text-primary text-2xl flex justify-center items-center cursor-pointer'></div>
+            <a href='tel:+442080588959' className=' w-8 h-8 rounded-lg border border-tertiary/40 text-tertiary/40 hover:border-primary duration-200 hover:text-primary text-lg flex justify-center items-center cursor-pointer'><FaPhone /></a>
+            <a href="https://wa.me/message/UBG5VSWKWVKNK1" className=' w-8 h-8 rounded-lg border border-tertiary/40 text-tertiary/40 hover:border-primary duration-200 hover:text-primary text-2xl flex justify-center items-center cursor-pointer'><FaWhatsapp /></a>
           </div>
         </div>
         <div className='flex flex-col gap-4'>
@@ -24,7 +25,7 @@ function Footer() {
            <Link href={'/'} className='relative hover:text-primary duration-200 before:absolute before:w-0 before:h-0.5 before:bg-primary before:-bottom-2 before:left-0 hover:before:w-12 before:duration-200'>Home</Link>
            <Link href={'/About'} className='relative hover:text-primary duration-200 before:absolute before:w-0 before:h-0.5 before:bg-primary before:-bottom-2 before:left-0 hover:before:w-12 before:duration-200'>About Us</Link>
            <Link href={'/Services'} className='relative hover:text-primary duration-200 before:absolute before:w-0 before:h-0.5 before:bg-primary before:-bottom-2 before:left-0 hover:before:w-12 before:duration-200'>Services</Link>
-           <Link href={'/Services'} className='relative hover:text-primary duration-200 before:absolute before:w-0 before:h-0.5 before:bg-primary before:-bottom-2 before:left-0 hover:before:w-12 before:duration-200'>Enquiries</Link>
+           <Link href={'/Enquiries'} className='relative hover:text-primary duration-200 before:absolute before:w-0 before:h-0.5 before:bg-primary before:-bottom-2 before:left-0 hover:before:w-12 before:duration-200'>Enquiries</Link>
           </div>
        </div>
         <div className='flex flex-col gap-4'>
@@ -42,7 +43,7 @@ function Footer() {
           <div className='w-60 text-tertiary/40 tracking-widest leading-relaxed flex flex-col gap-4 my-2'>
           <div className='flex flex-col gap-1'>
             <span className='text-primary tracking-widest text-sm uppercase'>Telephone</span>
-            <a className='text-tertiary/40' href='tel:+447811247446'>+44 7811 247446</a>
+            <a className='text-tertiary/40' href='tel:+447811247446'>+44 (0) 2080588959</a>
           </div>
           <div className='flex flex-col gap-1'>
             <span className='text-primary tracking-widest text-sm uppercase'>Email</span>
@@ -50,7 +51,7 @@ function Footer() {
           </div>
           <div className='flex flex-col gap-1'>
             <span className='text-primary tracking-widest text-sm uppercase'>Location</span>
-            <span className='text-tertiary/40'>London, United Kingdom</span>
+            <span className='text-tertiary/40'>128 City Road, London EC1V 2NX</span>
           </div>
           <div className='flex flex-col gap-1'>
             <span className='text-primary tracking-widest text-sm uppercase'>Availability</span>
@@ -59,10 +60,10 @@ function Footer() {
           </div>
         </div>
        </div>
-        <div className='bg-secondary text-tertiary/40 border-t max-lg:flex-col items-center border-tertiary/40 w-screen py-8 px-24 max-md:px-4 max-lg:px-12 max-md:px8 flex items-center text-center justify-between gap-4'>
-        <div className='w-1/3 max-lg:w-full max-lg:text-center text-start'>&copy;Arthur Pembroke Luxury Concierge. All rights reserved.</div>
+        <div className='bg-secondary text-tertiary/40 border-t max-lg:flex-col  border-tertiary/40 w-screen py-8 px-24 max-md:px-4 max-lg:px-12 max-md:px8 flex max-md:items-center text-center justify-between gap-4'>
+        <div className='w-1/3 max-lg:w-full max-lg:text-center text-start'>{new Date().getFullYear()} <span className="text-primary">&copy;</span> Arthur Pembroke Luxury Concierge. All rights reserved. Privacy Policy <b className="text-primary">|</b> Terms of Service</div>
         <div className='w-1/3'><span className='font-bold text-primary font-heading'>AP</span> Privacy Policy</div>
-        <div className='w-1/3 text-end max-lg:text-center'>Terms of Service</div>
+        <div className='w-1/3 text-end max-lg:text-center'>Deisgned and Developed by <a target="_black" href="https://portfolio-zeta-umber-60.vercel.app/" className="text-primary font-body font-bold cursor-pointer">SQ</a></div>
         </div>
     </footer>
   )

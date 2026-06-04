@@ -2,6 +2,7 @@ import React from 'react'
 import NavBar from '../Components/Header/NavBar.jsx'
 import Footer from '../Components/Footer/Footer.jsx'
 import { ImQuotesLeft } from "react-icons/im";
+import Link from 'next/link.js';
 function page() {
   return (
     <div>
@@ -132,7 +133,7 @@ function page() {
         <span>Every Detail,</span>
         <i className='text-white/80'>Accounted For.</i>
        </h5>
-       <button className='w-60 py-2 border text-lg border-white/80 rounded-xl uppercase cursor-pointer hover:bg-secondary/80 duration-200'>make an Enquiries</button>
+       <Link href={'/Enquiries'} className='w-60 py-2 border text-lg border-white/80 rounded-xl uppercase cursor-pointer hover:bg-secondary/80 duration-200'>make an Enquiries</Link>
     </div>
     <Footer/>
     </div>

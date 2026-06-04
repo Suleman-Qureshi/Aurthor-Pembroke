@@ -1,5 +1,6 @@
 import { Resend } from "resend";
 import { NextResponse } from "next/server";
+import dns from "dns/promises";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
@@ -17,11 +18,44 @@ export async function POST(req) {
       Collection_Address,
       Destination_Address,
       Additional_requirements,
+      How_did_you_hear_about_us
     } = body;
 
-    const data = await resend.emails.send({
-      from: `AuthorPemBroke ${Email} <onboarding@resend.dev>`,
-      to: ["demn729999@gmail.com"],
+    // ✅ 1️⃣ Check if email exists
+    if (!Email) {
+      return NextResponse.json(
+        { success: false, error: "Email is required" },
+        { status: 400 }
+      );
+    }
+
+    // ✅ 2️⃣ Validate email format
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+    if (!emailRegex.test(Email)) {
+      return NextResponse.json(
+        { success: false, error: "Invalid email format" },
+        { status: 400 }
+      );
+    }
+
+    // ✅ 3️⃣ Check if email domain exists (MX record check)
+    const domain = Email.split("@")[1];
+
+    try {
+      await dns.resolveMx(domain);
+    } catch {
+      return NextResponse.json(
+        { success: false, error: "Email domain does not exist" },
+        { status: 400 }
+      );
+    }
+
+    // ✅ 4️⃣ Send email (only if validation passed)
+    await resend.emails.send({
+      from: "Enquiries From AuthorPemBroke <onboarding@resend.dev>",
+      reply_to: Email, // ✅ important: reply goes to user
+      to: ["enquiries@arthurpembroke.com"],
       subject: `New Enquiry from ${FullName}`,
       html: `
         <h2>New Enquiry</h2>
@@ -34,10 +68,12 @@ export async function POST(req) {
         <p><strong>Collection:</strong> ${Collection_Address || "N/A"}</p>
         <p><strong>Destination:</strong> ${Destination_Address || "N/A"}</p>
         <p><strong>Additional Info:</strong> ${Additional_requirements || "N/A"}</p>
+        <p><strong>How did you hear about us Info:</strong> ${How_did_you_hear_about_us || "N/A"}</p>
       `,
     });
 
     return NextResponse.json({ success: true });
+
   } catch (error) {
     console.log(error);
     return NextResponse.json(
