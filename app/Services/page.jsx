@@ -20,7 +20,7 @@ function page() {
             <GoDotFill className="text-primary" />
             <span>what we offer</span>
           </div>
-          <h1 className="flex font-heading flex-col gap-4 text-8xl max-xl:text-7xl max-md:text-6xl max-md:text-5xl font-medium">
+          <h1 className="flex font-heading flex-col gap-4 text-8xl max-xl:text-7xl max-md:text-5xl max-sm:text-4xl font-medium">
             <span>Discretion.</span>
 
             <span
@@ -104,24 +104,24 @@ function page() {
         <div className="flex max-sm:flex-col border-t border-primary px-24 max-lg:px-12 max-md:px-0 w-full">
           <div className="w-1/2 max-sm:w-full p-8 border-x-[1px] max-sm:border-x-0 border-primary flex flex-col gap-8">
           <h2 className="text-3xl font-extralight text-primary flex items-center gap-2 font-body">
-                  <span className="text-secondary">chauffeur</span>
+                  <span className="text-secondary">Chauffeur</span>
                   <i>& Transfer</i>
                 </h2>
-                 <p className="text-slate-400 tracking-wider  font-light">Our chauffeur services are designed for clients who require more than transport. Each journey is carefully managed to ensure punctuality, comfort, and discretion.</p>
+                 <p className="text-slate-400 tracking-wider  font-light">Our chauffeur services are designed for clients who require more than transportation.</p>
                  <div className="flex w-full flex-col">
                   <div className="flex flex-col gap-1 p-2 border-t-[1px] border-primary">
                     <h5 className="flex items-center gap-4">
                       <span className="text-primary">◆</span>
                       <span className="font-light">Executive Airport Transfers</span>
                     </h5>
-                       <p className="text-slate-400 tracking-wider  font-light pl-7">First & Business Class collections, private terminal handling</p>
+                       <p className="text-slate-400 tracking-wider  font-light pl-7">First and Business Class pickups and private terminal handling</p>
                   </div>
                   <div className="flex flex-col gap-1 p-2 border-t-[1px] border-primary">
                     <h5 className="flex items-center gap-4">
                       <span className="text-primary">◆</span>
                       <span className="font-light">Airport Coverage</span>
                     </h5>
-                       <p className="text-slate-400 tracking-wider  font-light pl-7">Heathrow, Gatwick, Farnborough, Luton & Stansted with flight monitoring</p>
+                       <p className="text-slate-400 tracking-wider  font-light pl-7">Coverage og Heathrow, Gatwick, Farnborough, Luton and Stansted airpots with flight monitoring</p>
                   </div>
                   <div className="flex flex-col gap-1 p-2 border-y-[1px] border-primary">
                     <h5 className="flex items-center gap-4">

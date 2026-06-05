@@ -31,7 +31,7 @@ function Footer() {
         <div className='flex flex-col gap-4'>
           <h5 className='flex items-center max-md:flex-col-reverse gap-4 uppercase text-primary text-sm font-medium tracking-widest'> <span className="w-12 h-[1.5px] bg-primary my-8 max-md:my-2"></span> <span>Services</span></h5>
           <div className='w-60 text-tertiary/40 tracking-widest leading-relaxed flex flex-col gap-4 my-2'>
-           <Link href={'/'} className='relative hover:text-primary duration-200 before:absolute before:w-0 before:h-0.5 before:bg-primary before:-bottom-2 before:left-0 hover:before:w-12 before:duration-200'>chauffeur & <br className='max-md:hidden' /> Transfer</Link>
+           <Link href={'/'} className='relative hover:text-primary duration-200 before:absolute before:w-0 before:h-0.5 before:bg-primary before:-bottom-2 before:left-0 hover:before:w-12 before:duration-200'>Chauffeur & <br className='max-md:hidden' /> Transfer</Link>
            <Link href={'/'} className='relative hover:text-primary duration-200 before:absolute before:w-0 before:h-0.5 before:bg-primary before:-bottom-2 before:left-0 hover:before:w-12 before:duration-200'>Corporate <br className='max-md:hidden' />Concierge </Link>
            <Link href={'/'} className='relative hover:text-primary duration-200 before:absolute before:w-0 before:h-0.5 before:bg-primary before:-bottom-2 before:left-0 hover:before:w-12 before:duration-200'>Private <br className='max-md:hidden' />Events </Link>
            <Link href={'/'} className='relative hover:text-primary duration-200 before:absolute before:w-0 before:h-0.5 before:bg-primary before:-bottom-2 before:left-0 hover:before:w-12 before:duration-200'>Personal <br className='max-md:hidden' />Concierge </Link>
@@ -63,7 +63,7 @@ function Footer() {
         <div className='bg-secondary text-tertiary/40 border-t max-lg:flex-col  border-tertiary/40 w-screen py-8 px-24 max-md:px-4 max-lg:px-12 max-md:px8 flex max-md:items-center text-center justify-between gap-4'>
         <div className='w-1/3 max-lg:w-full max-lg:text-center text-start'>{new Date().getFullYear()} <span className="text-primary">&copy;</span> Arthur Pembroke Luxury Concierge. All rights reserved. Privacy Policy <b className="text-primary">|</b> Terms of Service</div>
         <div className='w-1/3'><span className='font-bold text-primary font-heading'>AP</span> Privacy Policy</div>
-        <div className='w-1/3 text-end max-lg:text-center'>Deisgned and Developed by <a target="_black" href="https://portfolio-zeta-umber-60.vercel.app/" className="text-primary font-body font-bold cursor-pointer">SQ</a></div>
+        <div className='w-1/3 text-end max-lg:text-center'>Designed and Developed by <a target="_black" href="https://portfolio-zeta-umber-60.vercel.app/" className="text-primary font-body font-bold cursor-pointer">SQ</a></div>
         </div>
     </footer>
   )

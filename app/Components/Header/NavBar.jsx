@@ -61,7 +61,7 @@ function NavBar() {
             <a href="https://wa.me/message/UBG5VSWKWVKNK1" className=' w-8 h-8 rounded-lg border border-secondary text-secondary hover:border-primary duration-200 hover:text-primary text-2xl flex justify-center items-center cursor-pointer'><FaWhatsapp /></a>
           </div>
           <div className='w-full text-center text-sm font-light'>{new Date().getFullYear()} <span className="text-primary">&copy;</span> Arthur Pembroke Luxury Concierge. All rights reserved. Privacy Policy <b className="text-primary">|</b> Terms of Service</div>
-          <div className='w-full text-sm font-light text-center'>Deisgned and Developed by <a target="_black" href="https://portfolio-zeta-umber-60.vercel.app/" className="text-primary font-body font-bold cursor-pointer">SQ</a></div>
+          <div className='w-full text-sm font-light text-center'>Designed and Developed by <a target="_black" href="https://portfolio-zeta-umber-60.vercel.app/" className="text-primary font-body font-bold cursor-pointer">SQ</a></div>
 </div>
     </>
   )
