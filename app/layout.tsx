@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Cinzel,Playfair_Display } from 'next/font/google'
+import { Analytics } from "@vercel/analytics/next"
 
 const cinzel = Cinzel({
   subsets: ['latin'],
@@ -53,6 +54,7 @@ export default function RootLayout({
       lang="en"
       className={` ${cinzel.variable} ${playfair.variable} h-full antialiased`}
     >
+          <Analytics />
       <body  className={` min-h-full flex flex-col w-screen overflow-x-hidden`}>{children}</body>
     </html>
   );
