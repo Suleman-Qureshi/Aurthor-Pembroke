@@ -19,7 +19,7 @@ export const metadata = {
     template: "%s | Author Pembroke",
   },
   description:
-    "Author Pembroke is a London-based luxury concierge and chauffeur firm providing discreet, bespoke transport, corporate concierge, private events coordination, and same-day courier services for private and corporate clients.",
+    "Arthur Pembroke is a London-based luxury concierge and chauffeur firm providing discreet, bespoke transport, corporate concierge, private events coordination, and same-day courier services for private and corporate clients.",
   keywords: [
     "Luxury Concierge London",
     "Private Chauffeur London",
@@ -34,8 +34,8 @@ export const metadata = {
     title: "Author Pembroke | Luxury Concierge & Chauffeur Services London",
     description:
       "Discreet, bespoke chauffeur, concierge and same-day courier services for private and corporate clients in London and across the UK.",
-    url: "https://yourdomain.com",
-    siteName: "Author Pembroke",
+    url: "https://www.arthurpembroke.com",
+    siteName: "Arthur Pembroke",
     type: "website",
   },
   robots: {
