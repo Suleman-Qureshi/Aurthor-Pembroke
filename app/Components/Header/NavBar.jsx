@@ -19,7 +19,7 @@ function NavBar() {
     </nav>
 
     <div className='w-screen max-md:hidden px-24 py-4 flex items-center justify-between font-heading fixed top-0 bg-[#FFFFF0] z-50 max-lg:px-20 max-md:px-12 max-sm:px-4'>
-      <Image src={'/logo.svg'} width={150} height={120} alt='logo' className='max-md:w-20 h-auto '/>
+      <Image src={'/logo.svg'} width={150} height={120} alt='AuthorPembroke_logo' className='max-md:w-20 h-auto '/>
       <div className='flex gap-12 max-lg:px-4 item-center text-lg text-secondary max-md:hidden'>
         <Link className={`${(pathname==="/")?"text-xl before:w-full font-medium":""} relative before:absolute before:w-0 hover:before:w-full duration-200 before:duration-200 before:h-1 before:rounded-xl before:-bottom-1 before:bg-primary`} href="/">Home</Link>
         <Link className={`${(pathname==="/About")?"text-xl before:w-full font-medium":""} relative before:absolute before:w-0 hover:before:w-full duration-200 before:duration-200 before:h-1 before:rounded-xl before:-bottom-1 before:bg-primary`} href="/About">About</Link>
@@ -38,8 +38,8 @@ function NavBar() {
       </div>
     {/* Mobile-Menu */}
 <div className={`${mobileMenu?'translate-x-0':'-translate-x-full'} transition-transform duration-300 ease-in-out w-80 h-screen fixed top-0  bg-tertiary border-r-2 border-primary z-50 p-4 flex flex-col gap-8 items-center`}>
-  <span className='absolute top-4 right-4 text-2xl'onClick={()=>setMobileMenu(!mobileMenu)}><MdCancel /></span>
-<Image src={'/logo.svg'} alt='' width={1000} height={10000} className='w-44'/>
+  <button className='absolute top-4 right-4 text-2xl'onClick={()=>setMobileMenu(!mobileMenu)} aria-label="Close menu"><MdCancel /></button>
+<Image src={'/logo.svg'} alt='authorPembroke_logo' width={1000} height={10000} className='w-44'/>
 <div className='flex flex-col gap-8 items-center text-xl'>
    <Link className={`${(pathname==="/")?"text-2xl before:w-full font-medium":""} relative before:absolute before:w-0 hover:before:w-full duration-200 before:duration-200 before:h-1 before:rounded-xl before:-bottom-1 before:bg-primary`} href="/">Home</Link>
         <Link className={`${(pathname==="/About")?"text-2xl before:w-full font-medium":""} relative before:absolute before:w-0 hover:before:w-full duration-200 before:duration-200 before:h-1 before:rounded-xl before:-bottom-1 before:bg-primary`} href="/About">About</Link>

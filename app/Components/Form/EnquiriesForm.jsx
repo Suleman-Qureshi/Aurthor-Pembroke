@@ -102,6 +102,7 @@ const onSubmit = async (data) => {
           </label>
           <input
             type="text"
+            id="fullname"
             className="text-tertiary border-b border-primary/50 focus:border-primary outline-none p-2 text-sm tracking-widest"
             placeholder="Enter Your Full Name"
             {...register("FullName", { required: "Required" })}
@@ -118,6 +119,7 @@ const onSubmit = async (data) => {
             </sup>
           </label>
           <input
+          id="email"
             type="email"
             className="text-tertiary border-b  outline-none border-primary/50 focus:border-primary p-2 text-sm tracking-widest"
             placeholder="your@emai.com"
@@ -136,6 +138,7 @@ const onSubmit = async (data) => {
           </sup>
         </label>
         <input
+        id="contact"
           type="number"
           className="text-tertiary border-b border-primary/50 focus:border-primary outline-none p-2 text-sm tracking-widest [appearance:textfield] [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none"
           placeholder="+00 123 4567789"
@@ -161,8 +164,7 @@ const onSubmit = async (data) => {
           </sup>
         </label>
         <select
-          name=""
-          id=""
+          id="serviceRequired"
           className="border-b bg-secondary border-primary/50 focus:border-primary outline-none cursor-pointer text-tertiary p-2 text-sm tracking-widest"
           {...register("Service", { required: "Required" })}
         >
@@ -194,6 +196,7 @@ const onSubmit = async (data) => {
               className="relative w-full cursor-pointer"
             >
               <input
+              id="date"
                 type="date"
                 {...register("Date", { required: "Required" })}
                 ref={(e) => {
@@ -222,6 +225,7 @@ const onSubmit = async (data) => {
               className="relative w-full cursor-pointer"
             >
               <input
+               id="time"
                 type="time"
                 {...register("Time", { required: "Required" })}
                 ref={(e) => {
@@ -248,6 +252,7 @@ const onSubmit = async (data) => {
               </sup>
             </label>
             <input
+            id="collectionAddress"
               type="text"
               className="text-tertiary border-b  outline-none border-primary/50 focus:border-primary p-2 text-sm tracking-widest"
               placeholder="Collection point"
@@ -265,6 +270,7 @@ const onSubmit = async (data) => {
               </sup>
             </label>
             <input
+            id="destinationAddress"
               type="text"
               placeholder="Destination"
               className="text-tertiary border-b  outline-none border-primary/50 focus:border-primary p-2 text-sm tracking-widest"
@@ -280,6 +286,7 @@ const onSubmit = async (data) => {
             Number Of passanger/Items{" "}
           </label>
           <input
+          id="numberOfPassanger"
             type="text"
             className="text-tertiary border-b  outline-none border-primary/50 focus:border-primary p-2 text-sm tracking-widest"
             placeholder="e.g 2 passanger, 3 items"
@@ -297,12 +304,13 @@ const onSubmit = async (data) => {
       </div>
       <div className="flex flex-col gap-4">
         <label
-          htmlFor="numberOfPassanger"
+          htmlFor="additional_Requirements"
           className="uppercase text-primary tracking-widest text-sm"
         >
           Additional Requirements{" "}
         </label>
         <input
+        id="additional_Requirements"
           type="text"
           className="p-2 text-tertiary border border-primary/50 focus:border-primary outline-none"
           placeholder="Please include any flight details, waiting time, lauggage requirements, courior instruction, confidentity request, or additional information"
@@ -318,7 +326,7 @@ const onSubmit = async (data) => {
         </label>
         <select
           name=""
-          id=""
+          id="howDidYouHearAboutUs"
           className="border-b bg-secondary border-primary/50 focus:border-primary outline-none cursor-pointer text-tertiary p-2 text-sm tracking-widest"
           {...register("How_did_you_hear_about_us")}
         >
