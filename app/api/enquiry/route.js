@@ -55,7 +55,8 @@ export async function POST(req) {
     await resend.emails.send({
       from: "Enquiries From AuthorPemBroke <onboarding@resend.dev>",
       reply_to: Email, // ✅ important: reply goes to user
-      to: ["enquiries@authorpembroke.com"],
+      // to: ["enquiries@authorpembroke.com"],
+      to: ["demn729999@gmail.com"],
       subject: `New Enquiry from ${FullName}`,
       html: `
         <h2>New Enquiry</h2>

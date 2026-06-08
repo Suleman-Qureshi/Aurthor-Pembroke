@@ -10,7 +10,7 @@ function HeroSection() {
          <p className='text-slate-200 text-2xl max-md:text-xl max-sm:text-lg font-medium tracking-widest w-[60vw] max-sm:w-full font-body'>Bespoke chauffeur, concierge and same-day courier services for private and corporate clients.</p>
          <div className=' flex gap-4 items-center max-md:flex-col'>
           <Link href={'/Enquiries'} className='w-60  py-4 text-center bg-primary uppercase text-sm tracking-[0.3rem] text-light text-secondary'>MAKE AN ENQUIRY</Link>
-          <button className='w-44 py-4 text-center  uppercase text-sm tracking-[0.2rem] text-light text-primary border border-primary'>our services</button>
+          <Link href="/Services" className='w-44 py-4 text-center  uppercase text-sm tracking-[0.2rem] text-light text-primary border border-primary'>our services</Link>
          </div>
       </div>
     </section>

@@ -4,6 +4,7 @@ import React, { useRef } from "react";
 import { useForm } from "react-hook-form";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
+import FormSubmitesComponent from "../FormSubmitesComponent";
 function EnquiriesForm() {
   const [showPopup, setShowPopup] = useState(false);
   const [loading, setLoading] = useState(false);
@@ -58,27 +59,8 @@ const onSubmit = async (data) => {
   return (
     <>
     {showPopup && (
-  <div className="fixed inset-0 flex items-center justify-center bg-black/60 z-50 backdrop-blur-xs">
-    <div className="bg-tertiary border border-primary  shadow-primary p-8 rounded-xl shadow-xl text-center max-w-md w-full">
-      <h2 className="text-2xl font-semibold mb-4 text-green-600">
-        ✅ Enquiry Sent Successfully!
-      </h2>
-
-      <p className="text-gray-600 mb-6">
-       Thank you for choosing Author Pembroke. We’ll be in touch shortly.⭐
-      </p>
-
-      <button
-        onClick={() => {
-          setShowPopup(false);
-          router.replace("/");
-        }}
-        className="bg-primary text-secondary font-body px-6 py-2 rounded-lg cursor-pointer"
-      >
-        Go To Home
-      </button>
-    </div>
-  </div>
+    <FormSubmitesComponent/>
+  
 )}
     <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col gap-8">
       <div className="flex flex-col gap-2">

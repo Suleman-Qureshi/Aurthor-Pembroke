@@ -3,7 +3,7 @@ import React from 'react'
 
 function AboutSection() {
   return (
-    <section className='w-screen flex max-lg:flex-col justify-between gap-2 px-24 max-lg:px-12 maxm-md:px-4 py-20'>
+    <section className='w-screen flex max-lg:flex-col justify-between gap-2 px-24 max-lg:px-12 max-md:px-4 py-20'>
         <div className='w-2/5 max-lg:w-full max-lg:h-[32rem] max-sm:h-[20rem] '>
         <div className='relative w-full max-lg:flex max-lg:justify-center'>
             <div className='w-[29rem] max-xl:w-[24rem] h-[29rem] max-xl:h-[24rem] max-sm:h-[20rem] max-sm:w-full max-lg:w-[30rem] max-lg:h-[30rem] bg-[url("/About-Image.jpg")] bg-center bg-cover top-4 max-lg:top-0 left-4 max-lg:left-1/2 max-lg:-translate-x-1/2 absolute'>
