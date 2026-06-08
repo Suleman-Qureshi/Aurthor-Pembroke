@@ -15,7 +15,7 @@ const playfair = Playfair_Display({
 });
 export const metadata = {
   title: {
-    default: "Author Pembroke | Luxury Concierge & Chauffeur Services London",
+    default: "Arthur Pembroke | Luxury Concierge & Chauffeur Services London",
     template: "%s | Author Pembroke",
   },
   description:
