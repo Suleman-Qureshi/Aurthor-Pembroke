@@ -12,18 +12,18 @@ function FormSubmitesComponent() {
         <IoIosCheckmark className="w-20 h-20 border border-primary rounded-full text-primary text-2xl font-light mb-2" />
         <div className="flex flex-col gap-1">
         <h1 className="text-4xl text-secondary font-heading fotn-bold">Thank You!</h1>
-        <p className="text-xl font-heading text-primary">Your enquiry has been recived</p>
+        <p className="text-xl font-heading text-primary">Your enquiry has been recieved</p>
         </div>
-<div class="flex items-center justify-center w-full py-6">
-  <div class="flex-grow h-px bg-primary"></div>
+<div className="flex items-center justify-center w-full py-6">
+  <div className="flex-grow h-px bg-primary"></div>
 
-  <div class=" text-primary text-lg leading-none">
+  <div className=" text-primary text-lg leading-none">
     ❖
   </div>
 
-  <div class="flex-grow h-px bg-primary"></div>
+  <div className="flex-grow h-px bg-primary"></div>
 </div>
-<p className="text-secondary font-light">We appreciate you choosing Author PemBroke. <br />A member of our concierge team will be in touch <br />shortly to assist you.</p>
+<p className="text-secondary font-light">We appreciate you choosing Arthur PemBroke. <br />A member of our concierge team will be in touch <br />shortly to assist you.</p>
 <div className="flex items-center max-md:flex-col py-6 w-full font-light max-sm:gap-8">
 
 <div className="text-primary flex flex-col gap-2 items-center w-full">
@@ -31,7 +31,7 @@ function FormSubmitesComponent() {
     <p className="text-secondary">Prompt Response <br />We aim to reply <br />within 1 hour</p>
 </div>
 <div className="text-primary flex flex-col gap-2 items-center w-full">
-<Image src={'/logo.svg'} width={80} height={80} alt='AuthorPembroke_logo' className='max-md:w-20 h-auto '/>
+<Image src={'/logo.svg'} width={80} height={80} alt='ArthurPembroke_logo' className='max-md:w-20 h-auto '/>
     <p className="text-secondary">Discreet & Professional <br />Your  enquiry is handled<br />with complete discretion</p>
 </div>
 <div className="text-primary flex flex-col gap-2 items-center w-full">

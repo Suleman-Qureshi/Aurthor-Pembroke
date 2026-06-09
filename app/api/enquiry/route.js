@@ -7,7 +7,6 @@ const resend = new Resend(process.env.RESEND_API_KEY);
 export async function POST(req) {
   try {
     const body = await req.json();
-
     const {
       FullName,
       Email,
@@ -20,16 +19,12 @@ export async function POST(req) {
       Additional_requirements,
       How_did_you_hear_about_us
     } = body;
-
-    // ✅ 1️⃣ Check if email exists
     if (!Email) {
       return NextResponse.json(
         { success: false, error: "Email is required" },
         { status: 400 }
       );
     }
-
-    // ✅ 2️⃣ Validate email format
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
     if (!emailRegex.test(Email)) {
@@ -38,8 +33,6 @@ export async function POST(req) {
         { status: 400 }
       );
     }
-
-    // ✅ 3️⃣ Check if email domain exists (MX record check)
     const domain = Email.split("@")[1];
 
     try {
@@ -50,13 +43,11 @@ export async function POST(req) {
         { status: 400 }
       );
     }
-
-    // ✅ 4️⃣ Send email (only if validation passed)
     await resend.emails.send({
-      from: "Enquiries From AuthorPemBroke <onboarding@resend.dev>",
-      reply_to: Email, // ✅ important: reply goes to user
-      // to: ["enquiries@authorpembroke.com"],
-      to: ["demn729999@gmail.com"],
+      from: "Enquiries From ArthurPemBroke <onboarding@resend.dev>",
+      reply_to: Email,
+      to: ["enquiries@arthurpembroke.com"],
+      // to: ["demn729999@gmail.com"],
       subject: `New Enquiry from ${FullName}`,
       html: `
         <h2>New Enquiry</h2>
