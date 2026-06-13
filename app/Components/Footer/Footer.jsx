@@ -43,11 +43,11 @@ function Footer() {
           <div className='w-60 text-tertiary/40 tracking-widest leading-relaxed flex flex-col gap-4 my-2'>
           <div className='flex flex-col gap-1'>
             <span className='text-primary tracking-widest text-sm uppercase'>Telephone</span>
-            <a className='text-tertiary/40' href='tel:+447811247446'>+44 (0) 2080588959</a>
+            <span className='text-tertiary/40'>+44 (0) 2080588959</span>
           </div>
           <div className='flex flex-col gap-1'>
             <span className='text-primary tracking-widest text-sm uppercase'>Email</span>
-            <a className='text-tertiary/40' href='href="mailto:enquiries@arthurpembroke.com"'>enquiries@arthurpembroke.com</a>
+            <span className='text-tertiary/40'>enquiries@arthurpembroke.com</span>
           </div>
           <div className='flex flex-col gap-1'>
             <span className='text-primary tracking-widest text-sm uppercase'>Location</span>

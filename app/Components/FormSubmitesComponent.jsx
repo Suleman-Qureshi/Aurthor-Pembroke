@@ -5,10 +5,16 @@ import { FaHeadphones } from "react-icons/fa6";
 import { FaPhoneAlt } from "react-icons/fa";
 import Link from 'next/link';
 import Image from 'next/image';
+import { MdCancel } from "react-icons/md";
 function FormSubmitesComponent() {
   return (
     <div className="fixed inset-0 flex items-center justify-center bg-black/60 z-50 backdrop-blur-xs text-center">
-        <div className="flex flex-col items-center p-8 rounded-lg bg-tertiary w-[35rem] max-sm:w-[30rem]">
+        <div className="flex flex-col items-center p-8 rounded-lg bg-tertiary w-[35rem] max-sm:w-[30rem] relative">
+      <span className="absolute right-4 top-4">
+        <a href="/">
+        <MdCancel className="text-2xl" />
+        </a>
+      </span>
         <IoIosCheckmark className="w-20 h-20 border border-primary rounded-full text-primary text-2xl font-light mb-2" />
         <div className="flex flex-col gap-1">
         <h1 className="text-4xl text-secondary font-heading fotn-bold">Thank You!</h1>
@@ -41,8 +47,7 @@ function FormSubmitesComponent() {
 
 </div>
 <div className="flex flex-col gap-1 items-center">
-    <Link href="/" className="w-80 border border-primary bg-secondary text-primary py-3 text-center rounded-md uppercase font-heading tracking-widest">Return to home</Link>
-    <a href="https://wa.me/message/UBG5VSWKWVKNK1" className="w-80 border border-primary  text-primary py-3 text-center rounded-md uppercase font-heading tracking-widest gap-2 flex items-center justify-center"><FaPhoneAlt /> Call us directly</a>
+    <a href="https://wa.me/message/UBG5VSWKWVKNK1" className="flex items-center justify-center gap-4 w-80 border border-primary bg-secondary text-primary py-4 text-center rounded-md uppercase font-heading tracking-widest"><FaPhoneAlt /> Call us directly</a>
 </div>
         </div>
       

@@ -65,7 +65,7 @@ const onSubmit = async (data) => {
     <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col gap-8">
       <div className="flex flex-col gap-2">
         <div className="flex gap-2 items-center">
-          <span className="text-xs tracking-[0.3rem] uppercase text-primary/70 w-60 max-md:w-80 max-sm:w-96">
+          <span className="text-xs tracking-[0.3rem] uppercase text-primary/70 w-64 max-md:w-96 max-sm:w-[42rem]">
             Personal details
           </span>
           <span className="h-[0.5px] w-full bg-primary/70"></span>
@@ -104,7 +104,7 @@ const onSubmit = async (data) => {
           id="email"
             type="email"
             className="text-tertiary border-b  outline-none border-primary/50 focus:border-primary p-2 text-sm tracking-widest"
-            placeholder="your@emai.com"
+            placeholder="your@email.com"
             {...register("Email", { required: "Required",pattern: {value: /^[^\s@]+@[^\s@]+\.[^\s@]+$/,message:'invalid email address',}, },)}
           />
         </div>
@@ -129,7 +129,7 @@ const onSubmit = async (data) => {
       </div>
       <div className="flex flex-col gap-2">
         <div className="flex gap-2 items-center">
-          <span className="text-xs tracking-[0.3rem] uppercase text-primary/70 w-60 max-md:w-80">
+          <span className="text-xs tracking-[0.3rem] uppercase text-primary/70 w-80 max-md:w-[42rem]">
             Service details
           </span>
           <span className="h-[0.5px] w-full bg-primary/70"></span>
@@ -157,8 +157,8 @@ const onSubmit = async (data) => {
           <option value="Airport Transfer">Airport Transfer</option>
           <option value="Same-Day Courier">Same-Day Courier</option>
           <option value="Private Concierge">Private Concierge</option>
-          <option value="Corporate / Excutive Services">
-            Corporate / Excutive Services{" "}
+          <option value="Corporate / Executive Services">
+            Corporate / Executive Services{" "}
           </option>
           <option value="Other">Other </option>
         </select>
@@ -265,7 +265,7 @@ const onSubmit = async (data) => {
             htmlFor="numberOfPassanger"
             className="uppercase text-primary tracking-widest text-sm"
           >
-            Number Of passanger/Items{" "}
+            Number Of Passengers/Items{" "}
           </label>
           <input
           id="numberOfPassanger"

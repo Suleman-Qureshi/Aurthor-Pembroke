@@ -31,13 +31,13 @@ function page() {
             </span>
             <span className="text-primary italic">Excellence.</span>
           </h1>
-          <span className=' mt-6 tracking-[0.3rem] text-slate-500 font-medium font-heading flex items-center gap-4 uppercase'><span className='w-12 h-[1.5px] bg-slate-500'></span>Est. London  ·  Private & Corporate</span>
+          <span className=' mt-6 tracking-[0.3rem] text-slate-500 font-medium font-heading flex items-center gap-4 uppercase'><span className='w-12 h-[1.5px] bg-slate-500 max-md:hidden'></span>Est. London  ·  Private & Corporate</span>
         </div>
-        <div className="h-full w-full flex flex-col gap-8 border-l border-primary ml-8 pl-8 max-lg:ml-0 max-md:items-center">
+        <div className="h-full w-full flex flex-col gap-8 border-l max-md:border-none border-primary ml-8 pl-8 max-md:pl-0 max-lg:ml-0 max-md:items-center">
           <span className="font-heading flex gap-12 uppercase tracking-[0.3rem] text-sm text-primary">
             Our Promise
           </span>
-          <p className="italic tracking-widest w-96 font-extralight">
+          <p className="italic tracking-widest w-96 max-md:w-full font-extralight">
             Bespoke chauffeur and concierge services for private and corporate
             clients who expect absolute reliability, discretion, and refinement.
           </p>
@@ -76,7 +76,7 @@ function page() {
               </div>
             </div>
           </div>
-          <div className="w-full flex items-center justify-between pt-8 border-t border-primary">
+          <div className="w-full flex max-md:flex-col items-center justify-between pt-8 max-md:gap-4 border-t border-primary">
             <div className="flex flex-col">
               <span className="font-heading flex gap-12 uppercase tracking-[0.3rem] text-[0.60rem] text-primary">Availability</span>
               <p className="text-sm font-body">24/7 — 365 days</p>
